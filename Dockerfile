@@ -1,5 +1,5 @@
 
-from ocaml
+from sjfloat/ocaml
 
 env DEBIAN_FRONTEND noninteractive
 
