@@ -10,6 +10,7 @@ run apt-get update && apt-get install -y \
     pkg-config
 
 user $USER
-run opam install mirage -y -v > opam-install-mirage.out 2>&1
+run opam switch 4.01.0
+run opam install mirage -y -v 
 
 add README.adoc $HOME/README.adoc
